@@ -1,0 +1,368 @@
+.service_primary_section .service-man {
+    width: 100%;
+}
+
+.service-man .service_container_tow_man {
+    width: 100%;
+    background-color: #E6F0Fd;
+}
+
+.service-man .devlopment-text {
+    width: 42%;
+}
+
+.devlopment-text .service-logo {
+    width: 55px;
+    margin-bottom: 1rem;
+}
+
+.service-man .service_img {
+    width: 530px;
+}
+
+.service-man .service_secondary-heading {
+    font-size: var(--font-h2);
+    color: var(--color-blue);
+    font-weight: var(--font-weight);
+}
+
+.service-man .service_text {
+    font-size: var(--font-h6);
+    color: gray;
+    padding: 1rem 0px;
+}
+
+.service-man .btn_apply_now {
+    background: linear-gradient(to bottom, #0160E7, var(--color-blue));
+    font-family: var(--font-p1);
+    width: 150px;
+    height: 50px;
+    color: white !important;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+
+.service-man .devlopment-text {
+    width: 42%;
+}
+
+.project-requirement {
+    background-image: url("../assets/Service/background-last.png");
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.view-more {
+    margin-top: 20px !important;
+    height: 45px;
+}
+
+.get_the_best {
+    color: white;
+    text-align: center;
+    font-size: var(--font-h3) !important;
+}
+
+
+.services_box_section .service_box_section_heading {
+    text-align: center;
+    color: white;
+    font-size: var(--font-h2);
+    font-weight: var(--font-weight);
+    margin-bottom: 50px;
+}
+
+.service_chid .inner_heading {
+    text-align: center;
+    color: var(--color-blue);
+    font-weight: var(--font-weight);
+    font-size: var(--font-h2);
+}
+
+.service_chid .secvice_child_text {
+    font-size: var(--font-h4);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.requirement {
+    text-align: center;
+}
+
+
+/* animation service */
+.service_animtion1,
+.service_animtion2 {
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+    opacity: 0;
+}
+
+.service_animtion1 {
+    animation-name: slidein1;
+}
+
+@keyframes slidein1 {
+    from {
+        transform: translate(150vw, 0) scale(2, 1);
+    }
+
+    to {
+        transform: translate(0, 0) scale(1, 1);
+        opacity: 1;
+    }
+}
+
+.service_animtion2 {
+    animation-name: slidein2;
+}
+
+@keyframes slidein2 {
+    from {
+        transform: translate(-150vw, 0) scale(2, 1);
+    }
+
+    to {
+        transform: translate(0, 0) scale(1, 1);
+        opacity: 1;
+    }
+}
+
+/* php department */
+.service {
+    background: linear-gradient(to right, #0053c6, var(--color-blue));
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    background-image: url("../../assets/php-department/service_img_bg.jfif");
+}
+
+.service-box {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: white;
+    font-size: var(--font-p1);
+    color: var(--color-blue);
+    margin: 4px;
+}
+
+.service-box img {
+    margin: 10px;
+}
+
+.service-box p {
+    font-size: var(--font-p1);
+    font-weight: var(--font-weight);
+}
+
+@media (max-width:1080px) {
+    .about-welcome {
+        width: 100%;
+    }
+
+    #about-heading {
+        margin: auto;
+    }
+
+    .client-section-child {
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width:1024px) {
+  
+
+    .services_box_section {
+        width: 100%;
+    }
+
+    .service-man .service_container_one {
+        max-width: 100%;
+    }
+
+    .service-man .service_container_two {
+        max-width: 100%;
+    }
+
+    .service-man .devlopment-text {
+        width: 50% !important;
+        padding: 10px;
+    }
+
+    .service-man .service_img {
+        width: 350px;
+    }
+
+    .service-man .service_text {
+        padding: 0.5rem 0px;
+    }
+
+    .project-requirement {
+        height: 250px;
+    }
+
+    .view-more {
+        margin-top: 10px !important;
+        height: 45px;
+    }
+
+    .devlopment-text .service-logo {
+        width: 45px;
+    }
+
+    .service_chid .secvice_child_text {
+        width: 100%;
+    }
+
+    /* php department */
+    .service-box {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (max-width:767px) {
+    .service-man .devlopment-text {
+        width: 100% !important;
+    }
+
+    .service-man .service_img {
+        width: 450px;
+    }
+
+    .service-man .service_container_one {
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .service-man .service_container_two {
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+
+    .get_the_best {
+        font-size: var(--font-h3) !important;
+
+    }
+
+
+
+    /* php department */
+
+    .service_box_section {
+        width: 100%;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .servicebox_man {
+        height: 100%;
+        margin: 10px;
+    }
+
+    .service-box {
+        width: 200PX;
+        height: 150px;
+        font-size: var(--font-p1);
+        margin: 6PX;
+    }
+
+    .service-box p {
+        font-size: var(--font-p1);
+    }
+}
+
+@media (max-width:576px) {
+    .service-man .service_img {
+        width: 320px;
+    }
+
+    .project-requirement {
+        height: 180px;
+    }
+
+    .view-more {
+        margin-top: 10px !important;
+        height: 40px;
+        width: 170px;
+    }
+
+
+    .service-man .btn_apply_now {
+        width: 120px;
+        height: 35px;
+    }
+
+    /* php department */
+    .service-man {
+        width: 100% !important;
+    }
+
+    .service-box {
+        width: 350px !important;
+        font-size: var(--font-p1);
+    }
+}
+
+@media (max-width:375px) {
+    .service-man .service_img {
+        width: 280px;
+    }
+
+    .project-requirement {
+        height: 150px;
+    }
+
+    .view-more {
+        margin-top: 10px !important;
+        height: 35px;
+        width: 150px;
+    }
+    .service-box {
+        width: 250px !important;
+        font-size: var(--font-p1);
+    }
+}
+
+
+
+/* service_hove */
+
+
+.servicebox_man {
+    --g: 1px;
+    --b: 2px;
+    --c: #fcfdf8;
+
+    padding: calc(var(--g) + var(--b));
+    --_c: #ff050500 0 25%, var(--c) 0 50%;
+    --_g1: repeating-linear-gradient(90deg, var(--_c)) repeat-x;
+    --_g2: repeating-linear-gradient(180deg, var(--_c)) repeat-y;
+    background: var(--_g1) var(--_p, 25%) 0, var(--_g2) 0 var(--_p, 125%),
+        var(--_g1) var(--_p, 125%) 100%, var(--_g2) 100% var(--_p, 25%);
+    background-size: 200% var(--b), var(--b) 200%;
+    cursor: pointer;
+    filter: grayscale(50%);
+    transition: 0.3s;
+}
+
+.servicebox_man:hover {
+    --_p: 75%;
+    filter: grayscale(0%);
+}

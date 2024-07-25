@@ -1,0 +1,178 @@
+.project_bg_img {
+     background-image: linear-gradient(to right, rgba(35, 27, 105, 0.383), black), url("../../assets/Project/project_bgimg.png");
+     width: 100%;
+     height: 600px;
+     background-size: cover;
+     background-position: center;
+}
+
+.project_bg_img .project-heading {
+     font-size: var(--font-h2);
+     font-weight: 700;
+}
+
+/* .project{
+} */
+
+.project .project_box {
+     width: 30%;
+     margin: 20px 0px;
+     box-shadow: 0px 0px 12px 0px rgb(62, 62, 62);
+     position: relative;
+}
+
+.project_box img {
+     width: 100%;
+     height: 100%;
+     display: block;
+     object-fit: cover;
+}
+
+.overlay {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: rgba(0, 0, 0, 0.6);
+     color: white;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     opacity: 0;
+     transition: opacity 0.8s ease;
+}
+
+.project_box:hover .overlay {
+     opacity: 1;
+}
+/* single-project */
+.single_project .single_project_imgsection1 {
+     width: 100%;
+}
+
+.single_project .single_project_imgsection1 img {
+     width: 100%;
+     display: block;
+}
+
+.single_project .text_project {
+     width: 90%;
+     margin-top: 20px;
+}
+
+.single_project .text_project p {
+     font-size: var(--font-p1);
+}
+
+.project_ul_section div {
+     display: flex;
+     align-items: center;
+     margin: 10px 0px;
+}
+
+.single_project .project_img_section2 {
+     width: 100%;
+}
+
+.single_project .project_img_section2 div {
+     width: 49%;
+}
+
+.single_project .project_img_section2 div img {
+     width: 100%;
+}
+
+.text_project .project_ul_section {
+     margin: 20px 0px;
+}
+
+.project_card_section {
+     margin-top: 20px;
+}
+
+.project_card_section .project_card {
+     margin: 0px 10px;
+     box-shadow: 0px 0px 5px 0px rgb(190, 188, 188);
+}
+
+.project_card .business_img {
+     width: 100%;
+}
+
+.business_img img {
+     width: 100%;
+}
+
+.business_heading {
+     background: linear-gradient(90deg, #0160E7 10.17%, var(--color-blue) 70%);
+     background-clip: text;
+     -webkit-text-fill-color: transparent;
+     font-size: var(--font-h5) !important;
+     font-weight: var(--font-weight) !important;
+}
+
+.Design_section p {
+     font-weight: 700;
+}
+
+.Design_section svg {
+     color: #1976d2;
+     margin: 0px 15px !important;
+}
+
+.amount {
+     color: rgb(112, 111, 111);
+}
+
+@media (max-width:1024px) {
+     .project_card_section {
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: center;
+     }
+
+     .project_card_section .project_card {
+          width: 45%;
+          margin: 15px;
+     }
+}
+
+
+@media (max-width:768px) {
+     .project .project_box {
+          width: 47%;
+     }
+
+     .business_heading {
+          font-size: var(--font-h5) !important;
+     }
+}
+
+@media (max-width:640px) {
+     .project_card_section .project_card {
+          width: 100%;
+          margin: 15px;
+     }
+
+     .project_card_section .project_card {
+          margin: 25px 0px 0px 0px;
+     }
+}
+
+@media (max-width:576px) {
+     .project .project_box {
+          width: 100%;
+     }
+}
+
+
+
+.business_img img {
+     transition: transform 0.3s ease;
+     }
+     
+     .business_img img:hover {
+     transform: scale(1.1);
+     }

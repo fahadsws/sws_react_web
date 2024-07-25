@@ -1,0 +1,29 @@
+import { Box, Typography } from '@mui/material'
+import React from 'react'
+import Footer2 from './Footer2';
+import Journey from "../assets/journey.svg"
+
+const LifeSoham = () => {
+    return (
+        <>
+            <Box className='bg-img'>
+                <Typography variant='h2' className='primary-heading' >
+                    Our Journey
+                </Typography>
+            </Box>
+            <Box className="flex-center padding-top-bottom " >
+                <Typography className="primary_subheading life-text container" textAlign={"center"}  >
+                    In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to
+                    demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used
+                    as a placeholder before the final copy is available.
+                </Typography>
+            </Box>
+            <Box>
+                <img className='journey' src={Journey} alt="" />
+            </Box>
+            <Footer2 />
+        </>
+    )
+}
+
+export default LifeSoham;

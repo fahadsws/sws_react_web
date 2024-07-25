@@ -1,0 +1,276 @@
+
+
+.title-gallery {
+  display: flex;
+  text-align: center;
+  font-size: var(--font-h5);
+  padding-bottom: 10px;
+}
+
+.title-gallery {
+  display: flex;
+  text-align: center;
+  padding-bottom: 0px;
+}
+
+.blog-card {
+  width: 31%;
+  height: 560px;
+  margin: 1.5% 1%;
+}
+
+.blogsimg {
+
+  height: 260px;
+  width: 100%;
+}
+
+#card-heading {
+  font-size: var(--font-h5);
+  margin: 18px 0px;
+  font-weight: var(--font-weight);
+  color: var(--color-blue);
+}
+
+.blog-card .card_text {
+  font-size: var(--font-p2);
+  line-height: 180%;
+  padding-top: 2%;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.view-more {
+  background: linear-gradient(to bottom, #0160E7, var(--color-blue));
+  font-size: var(--font-p2);
+  width: 200px;
+  color: white !important;
+}
+
+.css-1hdy0af {
+  margin-top: 0px !important;
+  margin-bottom: 2rem !important;
+}
+
+.box-card .blog480-center {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 0px;
+}
+
+.box_category .box-all-categories {
+  color: var(--color-blue);
+  font-weight: var(--font-weight);
+  font-size: var(--font-h2);
+  margin-bottom: 10PX;
+  text-align: start;
+}
+
+.box_category .box_category {
+  width: 300px;
+  height: 300px;
+  background-color: red;
+}
+
+.image-item {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  box-shadow: 0px 0px 20px 0px #f4f4f8;
+  border: 1px solid #053480;
+  margin-top: 20px;
+}
+
+.singleblogpage-man {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+.single_blog_heading {
+  width: 1100px;
+  margin: auto;
+}
+
+.singleblogpage-img {
+  width: 100%;
+}
+
+.singleblog_text {
+  font-size: var(--font-h5);
+  line-height: 2.5rem !important;
+}
+
+.all-pg420 {
+  padding-bottom: 0px;
+}
+
+#heading-child {
+  color: var(--color-blue);
+  margin-bottom: 30px;
+  font-weight: var(--font-weight);
+  font-size: var(--font-h3);
+}
+
+#blog-pading-top {
+  padding-top: 10px;
+}
+
+.categories-box {
+  width: 23%;
+  height: 250px;
+  margin: 1rem 0px;
+  border: 3px solid var(--color-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: var(----font-Weight);
+}
+
+#categories-box-typo {
+  font-size: var(--font-h2);
+  color: var(--color-blue);
+}
+
+#date-title {
+  width: 280px;
+  color: var(--color-blue);
+  line-height: 1.3rem;
+  font-size: var(--font-h6);
+}
+
+.css-ncxqys {
+  margin-top: -18px !important;
+}
+
+.css-1ie2n2a {
+  margin-top: -5px !important;
+  width: 85% !important;
+}
+
+.css-15v22id-MuiAccordionDetails-root {
+  padding: 0px !important;
+}
+
+@media (max-width:1024px) {
+  .blog-card {
+    height: 440px;
+    padding-bottom: 10px;
+  }
+
+  #card-heading {
+    margin: 0px 0px;
+  }
+
+  .blog-card .card_text {
+    line-height: 150%;
+  }
+
+  .blogsimg {
+    height: 150px;
+    width: 100%;
+
+  }
+
+  .singleblog_text {
+    line-height: 1.8rem !important;
+  }
+
+  .singleblogpage-man {
+    width: 100%;
+  }
+
+  .single_blog_heading {
+    width: 100%;
+  }
+}
+
+@media (max-width:768px) {
+  .blog-card {
+    height: 380px;
+    width: 45%;
+  }
+
+  .blog_section {
+    justify-content: space-evenly;
+  }
+
+  #card-heading {
+    font-size: var(--font-h5);
+  }
+
+  .blog-card .card_text {
+    font-size: var(--font-p2);
+    line-height: 160%;
+  }
+
+  .blogsimg {
+    height: 180px;
+  }
+
+  .singleblogpage-img {
+    width: 100%;
+  }
+
+  .singleblog_text {
+    font-size: var(--font-h5);
+    line-height: 1.5rem !important;
+    word-break: break-all;
+  }
+
+  .box_category .box-all-categories {
+    font-size: var(--font-h2) !important;
+    margin-bottom: 0PX !important;
+  }
+}
+
+@media (max-width:576px) {
+  .blog_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .blog-card {
+    height: 380px;
+    width: 100%;
+    margin: 20px;
+  }
+
+  .blogsimg {
+    height: 190px;
+  }
+
+  .css-1ohe0vz {
+    padding: 0% !important;
+  }
+
+  .all-pg420 {
+    width: 100%;
+  }
+
+  .singleblog_text {
+    line-height: 1.3rem !important;
+    word-break: break-all;
+  }
+}
+
+@media (max-width:375px) {
+  .singleblog_text {
+    line-height: 1.2rem !important;
+    word-break: break-all;
+  }
+
+  .categories-box {
+    width: 100%;
+    height: 200px;
+  }
+}
